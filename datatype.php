@@ -23,6 +23,21 @@
                     return "this is student class";
                 }
             }
+
+            $f = 0;
+            if($f){
+                echo "<br>hello";
+            }
+            else{
+                echo "<br>bye";
+            }
+             $g = 12;
+            if($g){
+                echo "<br>hello";
+            }
+            else{
+                echo "<br>bye";
+            }
            ?>
     </center>
 </body>
