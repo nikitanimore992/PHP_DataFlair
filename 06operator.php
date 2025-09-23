@@ -7,7 +7,8 @@
     <center>
         <marquee>this is php page</marquee>
             <?php 
-           
+            $a =20;
+            
             ?>
     </center>
 </body>
