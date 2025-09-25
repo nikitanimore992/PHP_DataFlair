@@ -16,12 +16,15 @@
             }
             display(); // calling a function
             echo " this is fuction";
-            echo "<br>"
+            echo "<br>";
 
             function sum($a, $b){
                 $c = $a + $b;
                 return $c;
             }
+            $num = sum(10,20);
+            echo "addition is ".$num;
+            echo "<br>";
             ?>
     </center>
 </body>
