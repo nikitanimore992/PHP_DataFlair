@@ -35,16 +35,16 @@
 
 
             /* concept of varargs  - means multiple variable argument*/
-             function sum(...$a){ // prameterized function
+             function summ(...$a){ // prameterized function
                 $c = 0;
                 foreach($a as $value){
                     $c = $c + $value;
                 }
                 echo "sum is: ".$c."<br>";
             }
-            sum(10,20);
-            sum(100,200,400);
-            sum(1000,2000,5000);
+            summ(10,20);
+            summ(100,200,400);
+            summ(1000,2000,5000);
 
 
             /* jab function koi valur return karta he to ham use return by value bol sakte he  */
@@ -75,10 +75,23 @@
             $a = 50;
             $b = 100;
             show($a,$b); // call by value
-            echo $a." ".$b; // 50 100
-            // yaha kya ho raha he jo function me a and b variable he wo function ke variable he and bahar jo and b hai wo local ke variable he
-            // iska output ayega 50 100 ab queation ye he ki 
+            echo $a." ".$b."<br>"; // 50 100
 
+            // yaha kya ho raha he jo function me a and b variable he wo function ke variable he and bahar jo and b hai wo local ke variable he
+            // iska output ayega 50 100 ab queation ye he ki hamne jo value prvide ki he wo function me change honge but hamare local ko effect nahi karenge
+            // lekin agar ham chahte he ki ham jo value pass karne rahe he or wo changes hame orignal variable me hi chahiye to uske liye ham call by value ki jagah concept use karenge call by refrence or copy by refrence 
+            function shows(&$a,&$b){ 
+                $a = $a + 10;
+                $b = $b + 20;
+            }
+
+            $a = 50;
+            $b = 100;
+            shows($a,$b); // call by refrence ya copy by refrence
+            echo $a." ".$b
+
+            // ab actually function ke andar ko a or b hai wo local me available a or b ke refrence variable he 
+            
             /* function with parameter */
             ?>
     </center>
