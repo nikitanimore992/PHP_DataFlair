@@ -52,6 +52,16 @@
             echo "after converting into lowercase : ".strtolower($strrr)."<br>";
             // jab bhi hame kisi string ko lowercase me convert karna he then we can go for strtolower() function
 
+            // substr_count() function
+            $strrrr = "hey lesners today i am talikg about about a girl, her name is nikita nimore , so nikita is a very desent girl. and one thing i saw in nikita is she is very hardworking and she is very polite and nikita's behaviour is very good. so this is all about nikita nimore";
+            echo "string is : ".$strrrr."<br>";
+            $n= substr_count($strrrr,"nikita");
+            echo "total nikita word is : ".$n."<br>";
+            // jab bhi hame kisi string me kisi particular word ki counting karni he then we can go for substr_count() function
+            // or agar hame chahiye ki kisi particular index ke baad wo word kitne baar aaya he to hum log 3rd parameter bhi de sakte hai jese ki niche diya he
+            $n= substr_count($strrrr,"nikita's",50);
+            echo "total is word is : ".$n."<br>";
+
            
 
             ?>
