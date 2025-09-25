@@ -81,7 +81,33 @@
             echo "after converting into lowercase first letter of first word : ".lcfirst($strrrrrrr)."<br>";
             // jab bhi hame kisi string me sirf first word ke first letter ko lowercase me convert karna he then we can go for lcfirst() function.
 
-           
+            // strcmp() function
+            $str1 = "Nikita";  
+            $str2 = "Nikita";
+            // $n = strcmp($str1,$str2);
+            // echo "comparing two string is : ".$n."<br>";
+            if(strcmp($str1,$str2) == 0){
+                echo "same"."<br>";
+            }else{
+                echo "not same"."<br>";
+            }
+            // jab bhi hame kisi string ko compare karna he then we can go for strcmp() function.
+            // ye function case sensitive hota he means agar dono string me case same nahi he to ye dono string ko different consider karega.
+            $str3 = "Hello";
+            $str4 = "hello";
+            if(strcmp($str3,$str4) == 0){
+                echo "same"."<br>";}
+            else{
+                echo "not same"."<br>";}
+            // agar apko case insensitive compare karna he to ap strcasecmp() function ka use kar sakte hai.
+            // strcasecmp() function
+            $str5 = "Hello";
+            $str6 = "hello";
+            if(strcasecmp($str5,$str6) == 0){
+                echo "same"."<br>";}
+            else{
+                echo "not same"."<br>";}
+            // jab bhi hame kisi string ko case insensitive compare karna he then we can go for strcasecmp() function.  
 
             ?>
     </center>
