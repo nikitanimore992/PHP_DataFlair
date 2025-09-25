@@ -32,7 +32,15 @@
             chunk_split($mystringg,3,".");
             echo $mystringg."<br>"; // yaha par kuch bhi change nahi hoga beacause string is immutable.
 
-      
+        // str_split() function
+            $string = "Hellothisisnikitanimore";
+            echo $string."<br>";
+            $arr = str_split($string,3);
+            print_r($arr);
+            echo "<br>";
+        // jab bhi hame kisi string ko split karke array me convert karna he then we can go for str_split() function
+
+       
 
             ?>
     </center>
