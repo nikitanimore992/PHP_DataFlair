@@ -40,7 +40,19 @@
             echo "<br>";
         // jab bhi hame kisi string ko split karke array me convert karna he then we can go for str_split() function
 
-       
+        // strtoupper() function
+            $strr = "hello this is nikita nimore";  
+            echo "actual string is : ".$strr."<br>";
+            echo "after converting into uppercase : ".strtoupper($strr)."<br>";
+            // jab bhi hame kisi string ko uppercase me convert karna he then we can go for strtoupper() function
+
+        // strtolower() function
+            $strrr = "Hello This is Nikita Nimore";
+            echo "actual string is : ".$strrr."<br>";
+            echo "after converting into lowercase : ".strtolower($strrr)."<br>";
+            // jab bhi hame kisi string ko lowercase me convert karna he then we can go for strtolower() function
+
+           
 
             ?>
     </center>
