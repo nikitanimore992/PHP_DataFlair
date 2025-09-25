@@ -62,6 +62,25 @@
             $n= substr_count($strrrr,"nikita's",50);
             echo "total is word is : ".$n."<br>";
 
+            // ucwords() function
+            $strrrrr = "hello this is nikita nimore";
+            echo "actual string is : ".$strrrrr."<br>";
+            echo "after converting into uppercase first letter of each word : ".ucwords($strrrrr)."<br>";
+            // jab bhi hame kisi string me har ek word ke first letter ko uppercase me convert
+
+            // ucfirst() function
+            $strrrrrr = "hello this is nikita nimore";
+            echo "actual string is : ".$strrrrrr."<br>";
+            echo "after converting into uppercase first letter of first word : ".ucfirst($strrrrrr)."<br>";
+            // jab bhi hame kisi string me sirf first word ke first letter ko uppercase me convert karna he then we can go for ucfirst() function.
+
+            
+            // lcfirst() function
+            $strrrrrrr = "HELLO THIS IS NIKITA NIMORE";
+            echo "actual string is : ".$strrrrrrr."<br>";   
+            echo "after converting into lowercase first letter of first word : ".lcfirst($strrrrrrr)."<br>";
+            // jab bhi hame kisi string me sirf first word ke first letter ko lowercase me convert karna he then we can go for lcfirst() function.
+
            
 
             ?>
