@@ -7,7 +7,14 @@
 </head>
 <body>
     <?php 
-    
+    // inbuild function in Array
+    $array1= array("Mon","Tue","Wed","Sat");
+    $array2= array("Mon","Wed","Thus","Feb","Tue");
+    $array3= array("Mon","Wed","Fri","Jan","Sat");
+
+   $newAray = array_intersect($array1,$array2);
+   print_r($newAray);
+   // array_intersect() ek predifine function array ka jiska use karke do arrays ke bich me jo bhi element common he use print karta he a
     ?>
     
 </body>
