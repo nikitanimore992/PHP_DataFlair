@@ -108,7 +108,7 @@
             else{
                 echo "not same"."<br>";}
             // jab bhi hame kisi string ko case insensitive compare karna he then we can go for strcasecmp() function.  
-
+            
             ?>
     </center>
 </body>
