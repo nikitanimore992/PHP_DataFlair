@@ -20,13 +20,13 @@
    $newAr = array_diff($array1,$array2);
    print_r($newAr);
    echo "<br>";
-    //    yaha per ham don array ko complare kar rahe he per out me hame only sat == hi mila 
+    // yaha per ham don array ko complare kar rahe he per out me hame only sat == hi mila 
     // yaha pr array1 to array to se compare kar rahe jism ejo bhi element array one array2 me nahi he bs use hi show karega matlb kuch esa jo only array 2 me he but array1 me nahi nahi show nahi hoga
 
     $newa = array_slice($array1,1,3,true);
     print_r($newa);
     // iska use bade array se koi particual array nikalna he to uske liye use karte he 
-
+   
     ?>
     
 </body>
