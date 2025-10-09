@@ -1,12 +1,9 @@
-
 <html><head><title>php cookies</title></head>
 
 
 <body>
 <center>
-   <?php
-echo "Welocme in php code"
-?> 
+    
 </center>
 </body>
 </html>
