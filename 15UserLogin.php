@@ -13,10 +13,10 @@
         code...... that your want to perform after action;
     } -->
     <center>
-<br><br>
+        <br><br>
 
         <!-- <form method=get action='CheckLogin.php'> -->
-            <form method=post action='userlogininter.php'>
+            <form method=post action='15UserLogin.php'>
             <table border=1>
             <tr>
                 <th>User Name</th>
@@ -56,8 +56,8 @@
             // echo $pass;
             // check login 
             if(strcmp($user,"Nikita")==0 && strcasecmp($pass,"bhopal")==0){
-                // echo "<font color=green size=5>You are valid user </font>";
-                header("Location:welcomepage.php");
+                echo "<font color=green size=5>You are valid user </font>";
+                // header("Location:welcomepage.php");
             }else{
                 echo "<font color=red size=5>You are invalid user </font>";
 
