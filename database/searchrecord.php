@@ -6,7 +6,7 @@
     </head>
     <body>
          <center>
-            <form action="Studentdata.php" method="post"></form>
+            <form action="Studentdatadelete.php" method="post"></form>
             <table>
                 <tr>
                     <th>Student Id</th>
