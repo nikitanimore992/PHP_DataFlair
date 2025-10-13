@@ -1,22 +1,23 @@
 <html>
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>search page </title>
-    </head>
-    <body>
-         <center>
-            <form action="Studentdatadelete.php" method="post"></form>
-            <table>
+<head>
+    <title>Search Student</title>
+</head>
+<body>
+    <center>
+        <h2>Search Student Record</h2>
+        <form action="Studentdatadelete.php" method="post">
+            <table border="1" cellpadding="5">
                 <tr>
-                    <th>Student Id</th>
-                    <td><input type="text" name="txtid"></td>
-                 </tr>
+                    <th>Student ID</th>
+                    <td><input type="text" name="txtid" required></td>
+                </tr>
                 <tr>
-                    <td></td>
-                    <td><input type="submit" value="Search" name="btnSbumit"></td>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="searchbtn" value="Search">
+                    </td>
                 </tr>
             </table>
-         </center>
-    </body>
-    </html>
+        </form>
+    </center>
+</body>
+</html>
