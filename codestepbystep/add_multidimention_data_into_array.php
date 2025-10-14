@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>php</title>
+</head>
+<body>
+  <center>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nikita</td>
+            <td>Bhopal</td>
+            <td>nikitanimore@gmail.com</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Neeraj</td>
+            <td>harda</td>
+            <td>NeerajRathore@gmail.com</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Neha</td>
+            <td>Indore</td>
+            <td>nehanimore@gmail.com</td>
+        </tr>
+    </table>
+  </center>  
+</body>
+</html>
