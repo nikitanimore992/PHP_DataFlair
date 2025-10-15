@@ -36,6 +36,12 @@
             <td>Indrapuri</td>
             <td>Yogitanimore@gmail.com</td>
         </tr>
+        <tr>
+            <td>5</td>
+            <td>Saloni</td>
+            <td>Bangloru</td>
+            <td>salonibanloru@gmail.com</td>
+        </tr>
     </table>
   </center>  
 </body>
