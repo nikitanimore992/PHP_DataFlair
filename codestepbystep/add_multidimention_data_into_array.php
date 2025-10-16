@@ -5,7 +5,7 @@
 </head>
 <body>
   <center>
-    <table>
+    <!-- <table border=1>
         <tr>
             <th>S.No</th>
             <th>Name</th>
@@ -42,7 +42,37 @@
             <td>Bangloru</td>
             <td>salonibanloru@gmail.com</td>
         </tr>
-    </table>
+    </table> -->
+
+  <?php 
+  $users=[
+    [1,"Nikita","Bhopal","nikitanimore@gmail.com"],
+    [2,"Neeraj","Harda","neerajrathore@gmail.com"],
+    [3,"Anil","Noida","aniljokhare@gmail.com"],
+    [4,"Neha","Indore","nehanimore@gmail.com"],
+    [5,"Aman","Indore","amannimore@gmail.com"]
+  ];
+  
+    echo "<table border=1>";
+    echo "<tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Email</th>
+        </tr>";
+
+  for($i=0; $i<count($users); $i++){
+    // print_r($array[$i]);
+    echo "<tr>";
+    for($j=0;$j<count($users[$j]);$j++){
+        echo "<td>";
+        echo $users[$i][$j];
+        echo "</td>";
+        }
+    echo "</tr>";
+    }
+    echo " </table>";
+  ?>
   </center>  
 </body>
 </html>
