@@ -71,7 +71,7 @@
         }
     echo "</tr>";
     }
-    echo " </table>";
+    echo "</table>";
   ?>
   </center>  
 </body>
