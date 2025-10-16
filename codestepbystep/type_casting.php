@@ -37,4 +37,15 @@
   $a = (array) $a;
   var_dump($a);
 
+  echo "<br>";
+  $a = ["10"];
+  var_dump($a);
+  $a = (string) $a;
+  var_dump($a); // array to string conversion is not possible  directly
+
+  echo "<br>";
+  $a = "Nikita";
+  var_dump($a);
+  $a = (array) $a;
+  var_dump($a);
 ?>
