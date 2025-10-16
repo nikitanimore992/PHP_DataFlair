@@ -8,6 +8,8 @@ function getName(){
 getName();
 echo "<br>";
 
+// ---------------------------------------------
+
 // globle varibale
 $email = "nikitanimore992@gmail.com";
 function getemail(){
@@ -20,6 +22,9 @@ echo "<br>";
 getemail();
 echo "<br>";
 
+// ---------------------------------------------
+
+
 
 $age = 27;
 function getAge($age){
@@ -30,6 +35,9 @@ echo $age;
 echo "<br>";
 getAge($age);
 echo "<br>";
+
+// ---------------------------------------------
+
 
 $city = "Bhopal";
 function getCity(){
@@ -43,6 +51,11 @@ getCity(); // function call
 echo "<br>";
 echo $city; //  after calling the functio value will we Noida 
 echo "<br>";
+
+
+// ---------------------------------------------
+
+
 
 $name = "Nikkta";
 function test(){
