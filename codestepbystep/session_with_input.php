@@ -25,7 +25,7 @@
         if($_POST['butn']=="set"){
             $username = $_POST['user'];
             $_SESSION['username']=$username;
-            echo "Session is set ";
+          //  echo "Session is set ";
      }
      if($_POST['butn']=="display"){
         if(isset($_SESSION['username'])){

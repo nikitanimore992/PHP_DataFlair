@@ -25,7 +25,7 @@
     if($_POST['butn']=="set"){
         $username = $_POST['user'];
         setcookie("username",$username,time()+3600);
-        echo "Cookie is set ";//$username;
+       // echo "Cookie is set ";//$username;
  }
  if($_POST['butn']=="display"){
     if(isset($_COOKIE['username'])){
