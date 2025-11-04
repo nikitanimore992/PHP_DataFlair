@@ -11,7 +11,7 @@ if(isset($_POST['file'])){
     print_r($_FILES['file']); 
     $myFile = fopen($file, 'r') or die ("unable to read file ");// Open the file in read mode    
     echo fread($myFile, filesize($file)); // Read the file content
-    fclose($myFile) 
+    fclose($myFile);
 }
 
 ?>
