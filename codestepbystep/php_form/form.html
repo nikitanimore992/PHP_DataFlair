@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php form</title>
+    <body>
+        
+    </body>
+</head>
+<body>
+    <center>
+    <form action="./form.php" method="post">
+        <input type="text" value="name" name="name" placeholder="enter user Name">
+    <br><br>
+    <input type="email" value="email" name="email">
+    <br><br>
+    <input type="password" value="password" name="password" placeholder="enter user password">
+    <br><br>
+
+    <input type="checkbox" name="skills[]" value="php"> <span>PHP</span>
+    <input type="checkbox" name="skills[]" value="java"><span>JAVA</span>
+    <input type="checkbox" name="skills[]" value="cpp"><span>CPP</span>
+    <input type="checkbox" name="skills[]" value="javascript"><span>JavaScript</span>
+    <br><br>
+
+    <input type="radio" name="gender" value="male"><span>Male</span>
+    <input type="radio" name="gender" value="female"><span>Female</span>
+    <br><br>
+
+    <select name="city" id="">
+        <option value="">Select Your City</option>
+        <option value="bhopal">Bhopal</option>
+        <option value="indore">Indore</option>
+        <option value="delhi">Delhi</option>
+        <option value="gurugram">Gurugram</option>
+    </select>
+    <br><br>
+    <textarea name="bio" id=""></textarea><br><br>
+    <button>Sign Up</button>
+    </form>
+</center>
+</body>
+</html>
